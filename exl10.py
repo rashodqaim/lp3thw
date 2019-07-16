@@ -1,4 +1,4 @@
-# This veriable is table over
+# This veriable is tab over
 tabby_cat = "\tI'm tabbed in."
 # This veriable is having the phares split onto different lines
 persian_cat = "I'm split\non a line."
