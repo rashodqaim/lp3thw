@@ -1,0 +1,3 @@
+Closeing the file
+opening it in finder
+seeing if that worked
