@@ -12,7 +12,15 @@ def print_one(arg1):
 def print_none():
     print("I got nothing'.")
 
-print_two("Zed", "Shaw")
-print_two_again("Zed", "Shaw")
-print_one("First!")
-print_none()
+# print_two("Zed", "Shaw")
+# print_two_again("Zed", "Shaw")
+# print_one("First!")
+# print_none()
+def print_any(*args):
+    # for index, arg in enumerate(args):
+    #     print(f"arg{index +1}: {arg}")
+    
+    for index in range(len(args)):
+        print(f"args{index +1}: {args[index +2]}")
+
+print_any("Rashod", "Hunter", "Neil", "Kyle", "Dave")
