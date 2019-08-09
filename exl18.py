@@ -16,11 +16,12 @@ def print_none():
 # print_two_again("Zed", "Shaw")
 # print_one("First!")
 # print_none()
+# This is the vaule of an * where you can add as many arguments as needed 
 def print_any(*args):
-    # for index, arg in enumerate(args):
-    #     print(f"arg{index +1}: {arg}")
+    for index, arg in enumerate(args):
+        print(f"arg{index +1}: {arg}")
     
-    for index in range(len(args)):
-        print(f"args{index +1}: {args[index +2]}")
+    # for index in range(len(args)):
+    #     print(f"args{index +1}: {args[index +2]}")
 
 print_any("Rashod", "Hunter", "Neil", "Kyle", "Dave")

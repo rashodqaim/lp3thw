@@ -1,6 +1,6 @@
 # Import argv
 from sys import argv
-# have a argv equal to filename
+# have a argv equal to variable filename
 script, filename = argv
 # Open a file, candy is a variable
 candy = open(filename)

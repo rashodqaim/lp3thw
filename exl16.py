@@ -10,7 +10,7 @@ print("If you do want that, hit RETURN.")
 input("?")
 
 print("Opening the file...")
-# variable called target opens filename from above
+# variable called target opens filename from above and allows you to write in it
 target = open(filename, 'w')
 
 print("Truncation the file. Goodbye!")

@@ -17,3 +17,5 @@ print(f"""
 alright, so you said {likes} about liking me.
 you live in {lives}. Not sure where that is.
 And you have a {computer} computer. Nice.""")
+
+# Argv happen before you run anything and inputs happends as soon as that line of code is written. 
